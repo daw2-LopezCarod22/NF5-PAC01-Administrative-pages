@@ -23,7 +23,7 @@ case 'add':
         break;
     case 'movie':
         $query = 'INSERT INTO
-            people
+            movie
                 (movie_name, movie_year, movie_type, movie_leadactor,
                 movie_director)
             VALUES
